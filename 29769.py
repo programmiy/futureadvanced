@@ -13,16 +13,9 @@ for _ in range(Q):
     x, y = map(int, input().split())
     changes.append([x, y])
 
-# 입력된 정보를 출력해보겠습니다.
-print("N:", days)
-print("A:", skills)
-print("Q:", Q)
-print("Changes:", changes)
-a = skills
 
-print("start")
 def full_control(skills):
-    print("Full Control")
+    
     data = None
     cnt = 1
     index = 0
@@ -39,13 +32,11 @@ def full_control(skills):
                 
                 if cnt >= 1:
                     cnt = index 
-                    print(index, "index")
-                    print(cnt, "cnt")
+                    
                     break
                 elif cnt == 0:
                     cnt = index 
-                    print(index, "index")
-                    print(cnt, "cnt")
+                    
                     break
                 
                 break
@@ -54,8 +45,7 @@ def full_control(skills):
                     
                 cnt +=1
                 index +=1
-        print("data =", data, "cnt =", cnt)    
-    print("리턴 전 값", data, cnt)
+        
     return data, cnt
     
         
@@ -63,11 +53,10 @@ def full_control(skills):
 for i in changes:
     member = i[0]
     ootd = i[1]
-    print(member, "+", ootd)
+    
     skills[member-1] = ootd
-    print(skills)
-    print("최종 출력")
+    
     data, cnt = full_control(skills)
     print(data, "", cnt)
-    print(" ***********************************")
+    
 skills = a
