@@ -13,16 +13,16 @@ for _ in range(Q):
     x, y = map(int, input().split())
     changes.append([x, y])
 
-# 입력된 정보를 출력해보겠습니다.
-print("N:", days)
-print("A:", skills)
-print("Q:", Q)
-print("Changes:", changes)
-a = skills
+    # # 입력된 정보를 출력해보겠습니다.
+    # print("N:", days)
+    # print("A:", skills)
+    # print("Q:", Q)
+    # print("Changes:", changes)
+    # a = skills
 
-print("start")
+    # print("start")
 def full_control(skills, len_skills):
-    print("Full Control")
+    #print("Full Control")
     data = None
     cnt = 1
     index = 1
@@ -37,20 +37,20 @@ def full_control(skills, len_skills):
                 cv = 1
                 if cnt != index and cv >1:
                     index = 1
-                    print(cv, "cv")
-                    print(index, "index")
-                    print(cnt, "cnt")
+                    #print(cv, "cv")
+                    #print(index, "index")
+                    #print(cnt, "cnt")
                 elif cnt != index and cv==1:
                     index = cnt
-                    print(cv, "cv")
-                    print(index, "index")
-                    print(cnt, "cnt")   
+                    #print(cv, "cv")
+                    #print(index, "index")
+                    #print(cnt, "cnt")   
                 else:
                     
                     index+=1   
                     cnt = index 
-                    print(index, "index")
-                    print(cnt, "cnt")
+                    #print(index, "index")
+                    #print(cnt, "cnt")
                     
             elif data > i:
                 
@@ -64,43 +64,43 @@ def full_control(skills, len_skills):
                     break
                 elif cnt ==1:
                     index =cnt 
-                    print(index, "index")
-                    print(cnt, "cnt")
+                    #print(index, "index")
+                    #print(cnt, "cnt")
                     break
                 elif cv >1 and cnt>1:
                     index = 1
-                    print(cv, "cv")
-                    print(index, "index")
-                    print(cnt, "cnt")
+                    #print(cv, "cv")
+                    #print(index, "index")
+                    #print(cnt, "cnt")
             elif data == i:
                 
                 
                 if len_skills == cnt:
                     if cnt != index and cv >1 and cnt>1:
                         index = 1
-                        print(cv, "cv")
-                        print(index, "index")
-                        print(cnt, "cnt")
+                        #print(cv, "cv")
+                        #print(index, "index")
+                        #print(cnt, "cnt")
                     elif cnt != index and cv==1 and cnt>1:
                         index = cnt
-                        print(cv, "cv")
-                        print(index, "index")
-                        print(cnt, "cnt")   
+                        #print(cv, "cv")
+                        #print(index, "index")
+                        #print(cnt, "cnt")   
                     else:
                         if cnt ==1:
                             index = cnt
-                            print("조기종결")
+                            #print("조기종결")
                         else:
                             index+=1   
                             cnt = index 
-                            print(index, "index")
-                            print(cnt, "cnt")
+                            #print(index, "index")
+                            #print(cnt, "cnt")
                 cv +=1    
                 cnt +=1
-        print("data =", data, "cnt =", cnt)
+        #print("data =", data, "cnt =", cnt)
     if cv ==len_skills and cnt==len_skills:
             index = 1
-    print("리턴 전 값", index, cnt)
+    #print("리턴 전 값", index, cnt)
     return index, cnt
     
         
@@ -110,10 +110,10 @@ for i in changes:
     ootd = i[1]
     
     skills[member-1] = ootd
-    print(skills)
+    # print(skills)
     len_skills= len(skills)
-    print("최종 출력")
+    #print("최종 출력")
     data, cnt = full_control(skills, len_skills)
     print(data, "", cnt)
-    print(" ***********************************")
+    #print(" ***********************************")
 
