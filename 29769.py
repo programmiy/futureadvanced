@@ -56,13 +56,11 @@ def full_control(skills, len_skills):
                 
                 if cnt > 1 and cv ==1:
                     cnt = index 
-                    print(index, "index")
-                    print(cnt, "cnt")
+                    
                     break
                 elif cnt == 0:
                     cnt = index 
-                    print(index, "index")
-                    print(cnt, "cnt")
+                    
                     break
                 elif cnt ==1:
                     index =cnt 
@@ -110,7 +108,7 @@ def full_control(skills, len_skills):
 for i in changes:
     member = i[0]
     ootd = i[1]
-    print(member, "+", ootd)
+    
     skills[member-1] = ootd
     print(skills)
     len_skills= len(skills)
