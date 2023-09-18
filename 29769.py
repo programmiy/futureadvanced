@@ -59,4 +59,4 @@ for i in changes:
     data, cnt = full_control(skills)
     print(data, "", cnt)
     
-skills = a
+
