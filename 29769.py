@@ -1,4 +1,4 @@
-
+# 예제는 전부 실행되지만 예외가 있는듯
 days = int(input())
 day = 0
 
@@ -13,7 +13,7 @@ for _ in range(Q):
     x, y = map(int, input().split())
     changes.append([x, y])
 
-    # # 입력된 정보를 출력해보겠습니다.
+    
     # print("N:", days)
     # print("A:", skills)
     # print("Q:", Q)
@@ -24,9 +24,9 @@ for _ in range(Q):
 def full_control(skills, len_skills):
     #print("Full Control")
     data = None
-    cnt = 1
+    cnt = 1  # 임시변수
     index = 1
-    cv = 1
+    cv = 1 # 중첩
     for i in skills:
         if data == None:
             data = i
