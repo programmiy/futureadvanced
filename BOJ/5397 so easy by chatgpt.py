@@ -1,6 +1,6 @@
 import sys
 from collections import deque
-
+# 직접 입력을 안하고 머리로만 생각해서 이런 간단한 알고리즘을 생각 못함 
 input = sys.stdin.readline
 
 for _ in range(int(input())):
