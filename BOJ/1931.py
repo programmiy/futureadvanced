@@ -18,7 +18,7 @@ def timetable(meetings):
     start = 0  # 12시 시작 12시 종료 같은 경우도 계산가능 VVV
     for meet in meetings: # 모든 미팅에 대해 시작시간이 끝나는 시간보다 크거나 같으면 카운트 +1
         if meet[0] >= start:
-            start = meet[1]
+            start = meet[1] # 다음시작시간과 비교하기 위해서 start를 종료시각으로 갱신
             count += 1
     return count
 
