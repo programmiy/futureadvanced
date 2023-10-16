@@ -1,119 +1,26 @@
-# 예제는 전부 실행되지만 예외가 있는듯
-days = int(input())
-day = 0
-
-skills = list(map(int, input().split()))
+n = int(input())
+a = list(map(int, input().split()))
+q = int(input())
 
 
-Q = int(input())
+# 첫 번째 날에는 모든 학생들이 연주할 수 있음
+selected = set(range(1, n+1))
 
-
-changes = []
-for _ in range(Q):
+for i in range(q):
     x, y = map(int, input().split())
-    changes.append([x, y])
-
+    a[x-1] += y
     
-    # print("N:", days)
-    # print("A:", skills)
-    # print("Q:", Q)
-    # print("Changes:", changes)
-    # a = skills
-
-    # print("start")
-def full_control(skills, len_skills):
-    #print("Full Control")
-    data = None
-    cnt = 1  # 임시변수
-    index = 1
-    cv = 1 # 중첩
-    for i in skills:
-        if data == None:
-            data = i
-            index +=1
-        else:
-            if data < i:
-                data = i
-                cv = 1
-                if cnt != index and cv >1:
-                    index = 1
-                    #print(cv, "cv")
-                    #print(index, "index")
-                    #print(cnt, "cnt")
-                elif cnt != index and cv==1:
-                    index = cnt
-                    #print(cv, "cv")
-                    #print(index, "index")
-                    #print(cnt, "cnt")   
-                else:
-                    
-                    index+=1   
-                    cnt = index 
-                    #print(index, "index")
-                    #print(cnt, "cnt")
-                    
-            elif data > i:
-                
-                if cnt > 1 and cv ==1:
-                    cnt = index 
-                    
-                    break
-                elif cnt == 0:
-                    cnt = index 
-                    
-                    break
-                elif cnt ==1:
-                    index =cnt 
-                    #print(index, "index")
-                    #print(cnt, "cnt")
-                    break
-                elif cv >1 and cnt>1:
-                    index = 1
-                    #print(cv, "cv")
-                    #print(index, "index")
-                    #print(cnt, "cnt")
-            elif data == i:
-                
-                
-                if len_skills == cnt:
-                    if cnt != index and cv >1 and cnt>1:
-                        index = 1
-                        #print(cv, "cv")
-                        #print(index, "index")
-                        #print(cnt, "cnt")
-                    elif cnt != index and cv==1 and cnt>1:
-                        index = cnt
-                        #print(cv, "cv")
-                        #print(index, "index")
-                        #print(cnt, "cnt")   
-                    else:
-                        if cnt ==1:
-                            index = cnt
-                            #print("조기종결")
-                        else:
-                            index+=1   
-                            cnt = index 
-                            #print(index, "index")
-                            #print(cnt, "cnt")
-                cv +=1    
-                cnt +=1
-        #print("data =", data, "cnt =", cnt)
-    if cv ==len_skills and cnt==len_skills:
-            index = 1
-    #print("리턴 전 값", index, cnt)
-    return index, cnt
     
-        
-        
-for i in changes:
-    member = i[0]
-    ootd = i[1]
-    
-    skills[member-1] = ootd
-    # print(skills)
-    len_skills= len(skills)
-    #print("최종 출력")
-    data, cnt = full_control(skills, len_skills)
-    print(data, "", cnt)
-    #print(" ***********************************")
+    avg = sum(a[i-1] for i in selected) / len(selected)
+    new_selected = set(i for i in selected if a[i-1] >= avg)
 
+    # 평균이 같은 경우에는 학생 수가 많을수록, 학생 수가 같은 경우에는 가장 작은 번호를 가진 학생들을 선택함
+    if len(new_selected) == len(selected):
+        selected = new_selected
+    elif len(new_selected) > len(selected):
+        selected = new_selected
+    else:
+        selected = set(i for i in selected if a[i-1] > avg)
+    
+    # 선택된 학생들의 번호를 출력함
+    print(*sorted(selected))
