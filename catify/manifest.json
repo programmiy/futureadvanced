@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Catify",
+    "description": "Catify",
+    "version": "1.2.1",
+    "icons": {  
+        "128": "1.png"
+    },
+    "action": {
+        "default_icon": "1.png",
+        "default_title": "Catify",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": ["storage"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["scripts/inject.js"]
+        }
+    ]
+}
