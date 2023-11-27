@@ -19,5 +19,5 @@ def solution(input_string):
 
     loners.sort()
     return "".join(loners)
-solution("edeaaabbccd")
+print(solution("edeaaabbccd"))
 #https://school.programmers.co.kr/learn/courses/15008/lessons/121683?language=python3
