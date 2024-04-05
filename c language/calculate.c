@@ -28,6 +28,6 @@ int main() {
     printf("%d * %d = %d\n", a, b, e);
     printf("%d / %d = %f\n", a, b, f);
     printf("max = %d\n", max);
-    
+    scanf("확인", &a);
     return 0;
 }
