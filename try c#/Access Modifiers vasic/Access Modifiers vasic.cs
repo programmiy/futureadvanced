@@ -41,9 +41,9 @@ namespace AccessModifiersExample
         }
 
         // Main 메서드: 프로그램의 진입점
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            ExampleClass example = new ExampleClass();
+            ExampleClass example = new();
             example.PublicMethod();
             example.InternalMethod();
             example.ProtectedInternalMethod();

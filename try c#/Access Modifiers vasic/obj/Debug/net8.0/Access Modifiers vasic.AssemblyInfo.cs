@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("try c#")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Access Modifiers vasic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c7de2e93ff87590c42a9bc21db6604756a8e282")]
-[assembly: System.Reflection.AssemblyProductAttribute("try c#")]
-[assembly: System.Reflection.AssemblyTitleAttribute("try c#")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bea3686736d1b1f02dfa7f11e67e5b07f5a0b937")]
+[assembly: System.Reflection.AssemblyProductAttribute("Access Modifiers vasic")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Access Modifiers vasic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

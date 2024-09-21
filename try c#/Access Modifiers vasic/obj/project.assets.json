@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj",
-      "projectName": "try c#",
-      "projectPath": "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj",
+      "projectUniqueName": "c:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\Access Modifiers vasic\\Access Modifiers vasic.csproj",
+      "projectName": "Access Modifiers vasic",
+      "projectPath": "c:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\Access Modifiers vasic\\Access Modifiers vasic.csproj",
       "packagesPath": "C:\\Users\\parkp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\obj\\",
+      "outputPath": "c:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\Access Modifiers vasic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\parkp\\AppData\\Roaming\\NuGet\\NuGet.Config",
