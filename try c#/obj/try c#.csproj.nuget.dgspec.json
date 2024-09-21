@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj": {}
+    "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj": {}
   },
   "projects": {
-    "c:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj": {
+    "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj",
+        "projectUniqueName": "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj",
         "projectName": "try c#",
-        "projectPath": "c:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj",
+        "projectPath": "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj",
         "packagesPath": "C:\\Users\\parkp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\obj\\",
+        "outputPath": "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parkp\\AppData\\Roaming\\NuGet\\NuGet.Config",
