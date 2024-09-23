@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\parkp\\.nuget\\packages\\": {}
+    "C:\\Users\\mine\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj",
+      "projectUniqueName": "c:\\Users\\mine\\Desktop\\futureadvanced\\try c#\\try c#.csproj",
       "projectName": "try c#",
-      "projectPath": "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\try c#.csproj",
-      "packagesPath": "C:\\Users\\parkp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\parkp\\Desktop\\futureadvanced\\try c#\\obj\\",
+      "projectPath": "c:\\Users\\mine\\Desktop\\futureadvanced\\try c#\\try c#.csproj",
+      "packagesPath": "C:\\Users\\mine\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\mine\\Desktop\\futureadvanced\\try c#\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\parkp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
