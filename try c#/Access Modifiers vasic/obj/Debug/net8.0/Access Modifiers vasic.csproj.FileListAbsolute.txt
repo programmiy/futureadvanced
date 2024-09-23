@@ -1,0 +1,15 @@
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\bin\Debug\net8.0\Access Modifiers vasic.exe
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\bin\Debug\net8.0\Access Modifiers vasic.deps.json
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\bin\Debug\net8.0\Access Modifiers vasic.runtimeconfig.json
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\bin\Debug\net8.0\Access Modifiers vasic.dll
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\bin\Debug\net8.0\Access Modifiers vasic.pdb
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\obj\Debug\net8.0\Access Modifiers vasic.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\obj\Debug\net8.0\Access Modifiers vasic.AssemblyInfoInputs.cache
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\obj\Debug\net8.0\Access Modifiers vasic.AssemblyInfo.cs
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\obj\Debug\net8.0\Access Modifiers vasic.csproj.CoreCompileInputs.cache
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\obj\Debug\net8.0\Access Modifiers vasic.sourcelink.json
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\obj\Debug\net8.0\Access Modifiers vasic.dll
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\obj\Debug\net8.0\refint\Access Modifiers vasic.dll
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\obj\Debug\net8.0\Access Modifiers vasic.pdb
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\obj\Debug\net8.0\Access Modifiers vasic.genruntimeconfig.cache
+c:\Users\parkp\Desktop\futureadvanced\try c#\Access Modifiers vasic\obj\Debug\net8.0\ref\Access Modifiers vasic.dll
