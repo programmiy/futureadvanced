@@ -165,10 +165,21 @@ try ~ catch
 
 #!csharp
 
-Console.WriteLine("insert devide number: ");
-int divider = int.Parse(Console.ReadLine());
-try{
-    Console.WriteLine(10 / divider);
-}catch(Exception e){
-    Console.WriteLine("Error: " + e.Message);
+Console.WriteLine("insert divide number: ");
+string input = "0";
+
+if (int.TryParse(input, out int divider))
+{
+    try
+    {
+        Console.WriteLine(10 / divider);
+    }
+    catch (DivideByZeroException)
+    {
+        Console.WriteLine("Can't divide by zero");
+    }
+}
+else
+{
+    Console.WriteLine("Invalid input. Please enter a valid number.");
 }
