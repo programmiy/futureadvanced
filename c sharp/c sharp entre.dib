@@ -81,3 +81,94 @@ Console.WriteLine("===========2");
 foreach(int i in arr3){
     Console.WriteLine(i);
 }
+
+#!markdown
+
+# Collections
+### Arraylist, Queue, Stack, Hashtable
+
+#!markdown
+
+Arraylist basic
+
+#!csharp
+
+ArrayList al = new ArrayList();
+al.Add(10);
+al.Add("2s0");
+al.Add(30.0);
+al.Add(true);
+
+foreach(var i in al){ // var is a type that is automatically determined by the compiler
+    Console.WriteLine(i);
+}
+Console.WriteLine("===========");
+
+al.Remove("2s0");
+foreach(var i in al){
+    Console.WriteLine(i);
+}
+
+#!markdown
+
+Queue basic
+
+#!csharp
+
+Queue q = new Queue();
+q.Enqueue(10);
+q.Enqueue(20);
+q.Enqueue(30);
+
+while(q.Count > 0){
+    Console.WriteLine(q.Dequeue());
+}
+
+#!markdown
+
+Stack basic
+
+#!csharp
+
+Stack st = new Stack();
+st.Push(10);
+st.Push(20);
+st.Push(30);
+
+while(st.Count > 0){
+    Console.WriteLine(st.Pop());
+}
+
+#!markdown
+
+Hashtable basic
+
+#!csharp
+
+Hashtable ht = new Hashtable();
+
+ht["one"] = 1;
+ht["two"] = 2;
+ht["three"] = 3;
+
+Console.WriteLine(ht["one"]);
+Console.WriteLine(ht["two"]);
+Console.WriteLine(ht["three"]);
+
+#!markdown
+
+# Exception
+
+#!markdown
+
+try ~ catch
+
+#!csharp
+
+Console.WriteLine("insert devide number: ");
+int divider = int.Parse(Console.ReadLine());
+try{
+    Console.WriteLine(10 / divider);
+}catch(Exception e){
+    Console.WriteLine("Error: " + e.Message);
+}
