@@ -1,0 +1,83 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!markdown
+
+# 클래스의 데이터 전달 
+
+#!markdown
+
+via "Member variable"
+
+#!csharp
+
+class Cat{
+    public string Name;
+    public Cat(string name){
+        Name = name;
+        Console.WriteLine("Cat's name is " + Name);
+    }
+}
+
+Cat coco = new Cat("Coco");
+coco.Name = "Cocos";
+Console.WriteLine("Cat's name is " + coco.Name);
+
+#!markdown
+
+private and this 
+
+#!csharp
+
+class Cat{
+    private string Name;
+    public void SetName(string name){
+        this.Name = name;
+    }
+    public string GetName(){
+        return Name;
+    }
+}
+
+Cat coco = new Cat();
+coco.SetName("Coco");
+Console.WriteLine("Cat's name is " + coco.GetName());
+//coco.Name = "Cocos"; //Error: (14,6): error CS0122: '보호 수준 때문에 'Cat.Name'에 액세스할 수 없습니다. <- private로 선언되어 있어서 외부에서 접근 불가능
+
+#!markdown
+
+# array
+
+#!markdown
+
+basic
+
+#!csharp
+
+int[] arr = new int[3]; // set size of array first
+arr[0] = 10;
+arr[1] = 20;
+arr[2] = 30;
+
+int[] arr2 = new int[3]{10, 20, 30}; // set size of array and values at the same time
+
+int[] arr3 = {10, 20, 30}; // set values only and size is automatically set
+
+for(int i = 0; i < arr.Length; i++){
+    Console.WriteLine(arr[i]);
+}
+Console.WriteLine("===========");
+for(int i = 0; i < arr2.Length; i++){
+    Console.WriteLine(arr2[i]);
+}
+Console.WriteLine("===========");
+for(int i = 0; i < arr3.Length; i++){
+    Console.WriteLine(arr3[i]);
+}
+// 3way to declare array
+Console.WriteLine("===========2");
+
+foreach(int i in arr3){
+    Console.WriteLine(i);
+}
