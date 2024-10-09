@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Access Modifiers vasic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+095d57384072db603531872d2259d52ea823698c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+573378452ec8030bb2b35f985c885910d6779332")]
 [assembly: System.Reflection.AssemblyProductAttribute("Access Modifiers vasic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Access Modifiers vasic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
